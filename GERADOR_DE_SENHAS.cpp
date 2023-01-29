@@ -14,7 +14,7 @@ int fim;
 struct tfila fila; 
 int op;
 
-//Protipação 
+//ProtipaÃ§Ã£o 
 void fila_entrar(); 
 void fila_sair(); 
 void fila_mostrar(); 
@@ -47,7 +47,7 @@ setlocale(LC_ALL, "Portuguese");
 //Adicionar um elemento no final da Fila 
 	void fila_entrar(){  
 		if (fila.fim == tamanho) {    
-		printf("\nA fila está cheia, volte outro dia!\n\n");              
+		printf("\nA fila estÃ¡ cheia, volte outro dia!\n\n");              
 		system("pause");        
 		}    
 		else {        
@@ -60,7 +60,7 @@ setlocale(LC_ALL, "Portuguese");
 		//Retirar o primeiro elemento da Fila 
 		void fila_sair() {  
 		if (fila.ini == fila.fim) {    
-		printf("\nFila vazia, mas logo aparece alguém!\n\n");              
+		printf("\nFila vazia, mas logo aparece alguÃ©m!\n\n");              
 		system("pause");        
 		}   
 		else {    
@@ -73,7 +73,7 @@ setlocale(LC_ALL, "Portuguese");
 		}  
 	}
 	
-//Mostrar o conteúdo da Fila 
+//Mostrar o conteÃºdo da Fila 
 		void fila_mostrar() {  
 		int i;    
 		printf("[  ");         
@@ -83,9 +83,9 @@ setlocale(LC_ALL, "Portuguese");
    		printf("]\n\n");        
    	}
    
-//Mostrar o menu de opções 
+//Mostrar o menu de opÃ§Ãµes 
 	void menu_mostrar() {  
-	printf("\nEscolha uma opção:\n");          
+	printf("\nEscolha uma opÃ§Ã£o:\n");          
 	printf("1 - Incluir na Fila\n");              
 	printf("2 - Excluir da Fila\n");              
 	printf("0 - Sair\n\n");          
