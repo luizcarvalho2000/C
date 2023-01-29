@@ -11,9 +11,9 @@ scanf("%d", &lado);
 
 area = (lado1 * lado2);
 
-// Cálculo da área
+// CÃ¡lculo da Ã¡rea
 
-printf("A área e: %d \n", area);
+printf("A Ã¡rea e: %d \n", area);
 
 
 
